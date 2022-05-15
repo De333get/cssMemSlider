@@ -96,6 +96,18 @@ background-color: white;
 .button:hover{
 	background: white;
 }
+#slide1:checked ~ .footer > .controls > label:nth-of-type(1) > .button:hover{
+	border: 2px solid white;
+}
+#slide2:checked ~ .footer > .controls > label:nth-of-type(2) > .button:hover{
+	border: 2px solid white;
+}
+#slide3:checked ~ .footer > .controls > label:nth-of-type(3) > .button:hover{
+	border: 2px solid white;
+}
+#slide4:checked ~ .footer > .controls > label:nth-of-type(4) > .button:hover{
+	border: 2px solid white;
+}
 #slide1:checked ~ .footer > .controls > label:nth-of-type(1) > .button,
 #slide2:checked ~ .footer > .controls > label:nth-of-type(2) > .button,
 #slide3:checked ~ .footer > .controls > label:nth-of-type(3) > .button,
