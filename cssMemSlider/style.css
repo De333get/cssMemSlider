@@ -101,6 +101,9 @@ label{
 label:hover .button{
 background-color: white;
 }
+label:active .button{
+transform: scale(0.85)
+}
 .button:hover{
 	background: white;
 }
